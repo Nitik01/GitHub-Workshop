@@ -13,13 +13,13 @@ A customizable portfolio template for the Git & GitHub Workshop. Showcase your G
 ## Getting Started
 
 ### 1. Fork the Repository
-- Go to [https://github.com/GitHer-Muna/Git-GitHub-Workshop](https://github.com/GitHer-Muna/Git-GitHub-Workshop).
+- Go to [https://github.com/GitHer-Muna/GitHub-Workshop](https://github.com/GitHer-Muna/GitHub-Workshop).
 - Click **Fork** in the top-right corner to create your own copy.
 
 ### 2. Clone Your Fork
 Open your terminal and run:
 ```bash
-git clone https://github.com/yourusername/Git-GitHub-Workshop.git
+git clone https://github.com/yourusername/GitHub-Workshop.git
 ```
 Replace `yourusername` with your GitHub username.
 
@@ -47,7 +47,7 @@ git push origin main
 - Go to your forked repo on GitHub.
 - Click **Settings** > **Pages**.
 - Under **Source**, select **Deploy from a branch** and choose `main`.
-- Click **Save**. Your site will be live at `https://yourusername.github.io/Git-GitHub-Workshop`.
+- Click **Save**. Your site will be live at `https://yourusername.github.io/GitHub-Workshop`.
 
 ## Workshop Submission
 
@@ -56,7 +56,7 @@ After customizing and deploying your portfolio:
 1. In your cloned repo, edit `submissions.html` to add your details (name, email, semester, roll number, and portfolio link).
 2. Create a new branch: `git checkout -b submit-student-[your-number]`
 3. Commit and push: `git add submissions.html && git commit -m "Submit portfolio" && git push origin submit-student-[your-number]`
-4. Create a Pull Request to the original repo: [https://github.com/GitHer-Muna/Git-GitHub-Workshop](https://github.com/GitHer-Muna/Git-GitHub-Workshop).
+4. Create a Pull Request to the original repo: [https://github.com/GitHer-Muna/GitHub-Workshop](https://github.com/GitHer-Muna/GitHub-Workshop).
 
 ## Prerequisites
 
